@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>La Chata de Guadalajara</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <h1>La Chata de Guadalajara</h1>
+            <p class="subtitle">Sabor tradicional jalisciense</p>
+        </header>
+
+        <nav class="nav">
+            <a href="#sobre-nosotros">Sobre nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <main>
+            <section id="sobre-nosotros" class="section">
+                <h2>Sobre nosotros</h2>
+                <p>
+                    Restaurante tradicional de comida mexicana, conocido por sus
+                    platillos típicos jaliscienses y ambiente familiar.
+                </p>
+            </section>
+
+            <section id="servicios" class="section section-alt">
+                <h2>Servicios</h2>
+                <ul class="servicios-lista">
+                    <li>Desayunos</li>
+                    <li>Comidas</li>
+                    <li>Menú tradicional</li>
+                    <li>Atención en restaurante</li>
+                </ul>
+            </section>
+
+            <section id="galeria" class="section">
+                <h2>Galería</h2>
+                <div class="galeria">
+                    <img
+                        src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564-700x535.jpg"
+                        alt="Tacos mexicanos"
+                    />
+                    <img
+                        src="https://saboresdemicocina.com/wp-content/uploads/2025/10/22queretaro-enchiladas-queretanas-68ed60c10ad5a-1.webp"
+                        alt="Enchiladas"
+                    />
+                    <img
+                        src="https://tvazteca.brightspotcdn.com/dims4/default/0233ae1/2147483647/strip/true/crop/1917x1080+2+0/resize/1200x676!/format/webp/quality/100/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2F14%2F72%2F2914c35e4fb5a880d3e775cfc275%2Fpozole-rojo-estilo-jalisco.jpg"
+                        alt="Pozole jalisciense"
+                    />
+                </div>
+            </section>
+
+            <section id="contacto" class="section section-alt">
+                <h2>Contacto</h2>
+                <form id="form-contacto" class="form-contacto">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required />
+
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" required />
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <img
+                src="https://www.smig.org.mx/img/capitulos_activos/cucei_udg/logo_cucei_1.webp"
+                alt="Logo CUCEI"
+                class="footer-logo"
+            />
+            <div class="footer-info">
+                <p><strong>Alumno:</strong> Carlos Andrei Saucedo Aguilar</p>
+                <p>
+                    <strong>Materia:</strong> Desarrollo de aplicaciones web en
+                    la nube y moviles
+                </p>
+                <p><strong>Profesor:</strong> Zeus Emanuel Gutierrez Cobian</p>
+                <p><strong>Calendario:</strong> 2026A</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
